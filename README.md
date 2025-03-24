@@ -81,15 +81,21 @@ The frontend will run on http://localhost:5173.
 ### 6. Access the Application
 
 Open your browser and navigate to http://localhost:5173.
+
 You should see the "Users Management" page with a table of users.
+
 You can create, edit, delete, and view user details.
 
 
 # Project Structure
 
 client/: Contains the Vue.js frontend (built with Vite).
+
 server.py: The Flask backend server.
+
 parser.py: A script to parse users.json and insert data into MongoDB.
+
 users.json: Sample user data in JSON format.
+
 README.md: This file with setup instructions.
 
