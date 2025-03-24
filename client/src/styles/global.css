@@ -1,0 +1,118 @@
+:root {
+  --background-primary: #1A1A1A;
+  --background-secondary: #2D2D2D;
+  --text-primary: #E0E0E0;
+  --text-secondary: #A0A0A0;
+  --button-primary: #3B82F6;
+  --button-secondary: #EF4444;
+  --action-edit: #10B981;
+  --action-delete: #EF4444;
+  --border-color: #4B4B4B;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+.p-datatable {
+  background-color: var(--background-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.p-datatable .p-datatable-header {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border: 1px solid var(--border-color) !important;
+}
+
+.p-button.p-button-primary {
+  background-color: var(--button-primary) !important;
+  border-color: var(--button-primary) !important;
+  color: #ffffff !important;
+}
+
+.p-button.p-button-primary:hover {
+  background-color: #2563EB !important;
+  border-color: #2563EB !important;
+}
+
+.p-button.p-button-danger {
+  background-color: var(--button-secondary) !important;
+  border-color: var(--button-secondary) !important;
+  color: #ffffff !important;
+}
+
+.p-button.p-button-danger:hover {
+  background-color: #DC2626 !important;
+  border-color: #DC2626 !important;
+}
+
+.p-button.p-button-success {
+  background-color: var(--action-edit) !important;
+  border-color: var(--action-edit) !important;
+  color: #ffffff !important;
+}
+
+.p-button.p-button-success:hover {
+  background-color: #059669 !important;
+  border-color: #059669 !important;
+}
+
+.p-field {
+  padding: 15px;
+  justify-self: left;
+  display: flex;
+}
+
+.p-inputtext {
+  margin-left: 15px;
+}
+
+.p-multiselect {
+ margin-left: 15px;
+}
+
+.p-checkbox {
+  margin-left: 15px;
+}
+
+.p-dialog{
+  height: 600px;
+  width: 600px;
+}
+
+a {
+  color: var(--button-primary) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: var(--text-primary) !important;
+}
+
+p {
+  color: var(--text-secondary) !important;
+}
+
