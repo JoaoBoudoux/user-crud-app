@@ -46,7 +46,9 @@ Navigate to the project root directory (where server.py is located).
 Create a virtual environment and activate it:
 
 bash: python -m venv venv
+
 bash: .\venv\Scripts\activate  # On Windows
+
 bash: source venv/bin/activate  # On macOS/Linux
 
 
